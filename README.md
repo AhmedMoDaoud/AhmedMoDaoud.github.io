@@ -1,16 +1,38 @@
-## Hi there 👋
+# 👋 Hi, I'm Ahmed Mohamed Daoud  
 
-<!--
-**AhmedMoDaoud/AhmedMoDaoud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 **IT Specialist | Network Engineer | DevOps Enthusiast**  
+🌍 Passionate about Cloud, Automation, and Infrastructure as Code.  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 About Me
+I am an IT professional with experience in **system administration, networking, and cloud technologies**.  
+I enjoy solving problems, building scalable infrastructure, and automating repetitive tasks using DevOps practices.  
+
+---
+
+## 🛠️ Skills
+- **Cloud & Virtualization:** AWS (EC2, S3, IAM, VPC), Hyper-V, VMware  
+- **DevOps & Automation:** Ansible, Docker, Git, GitHub Actions  
+- **Networking:** CCNA, CCNP ENCOR, Fortinet Firewalls  
+- **Systems:** Windows Server, Active Directory, DNS, DHCP  
+
+---
+
+## 🎓 Certifications
+- AWS Certified Cloud Practitioner  
+- Fortinet Network Security Associate  
+- CCNA | CCNP ENCOR  
+
+---
+
+## 📂 Featured Projects
+- [Automated Server Configuration with Ansible](https://github.com/AMD971126/Automated-Server-Configuration-with-Ansible)  
+- [Ansible Tasks Labs](https://github.com/AMD971126/ansible-tasks-labs)  
+
+---
+
+## 📫 Contact
+- 📧 Email: your.email@example.com  
+- 🔗 [LinkedIn](https://www.linkedin.com/)  
+- 💻 [GitHub](https://github.com/AhmedMoDaoud)  
