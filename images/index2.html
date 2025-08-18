@@ -596,66 +596,16 @@ a.button:hover {
 }
  /* لجميع الشاشات الصغيرة */
 @media (max-width: 768px) {
-
-    /* القسم العام */
-    section {
-        margin: 20px 10px;
-        padding: 10px;
-    }
-
-    /* Projects */
-    .projects-grid {
-        grid-template-columns: 1fr; /* كروت في عمود واحد */
-        gap: 15px;
-    }
-    .project-card img {
-        height: 150px; /* تصغير الصورة لتناسب الموبايل */
-    }
-
-    /* Timeline */
-    .timeline {
-        padding-left: 20px;
-    }
-    .timeline::before {
-        left: 10px;
-    }
-    .timeline-item .timeline-content {
-        margin-left: 35px;
-        padding: 10px;
-    }
-
-    /* Certificates */
-    .certificates-grid {
-        grid-template-columns: 1fr; /* كروت في عمود واحد */
-        gap: 15px;
-    }
-    .certificate-card img {
-        height: 150px;
-    }
-
-    /* Buttons */
-    .btn-certificate, .projects-icon {
-        font-size: 1.2em;
-        padding: 8px 15px;
-    }
-
-    /* العناوين */
-    h2 {
-        font-size: 24px;
-    }
-    h3 {
-        font-size: 16px;
-    }
-    p {
-        font-size: 14px;
-    }
-
-    /* Timeline direction للغة العربية */
-    .lang-ar .timeline-item .timeline-content {
-        text-align: right;
-    }
+  section { margin: 20px 10px; }
+  .projects-grid, .certificates-grid { grid-template-columns: 1fr; gap: 15px; }
+  .project-card img, .certificate-card img { height: 150px; }
+  .timeline { padding-left: 20px; }
+  .timeline::before { left: 10px; }
+  .timeline-item .timeline-content { margin-left: 35px; padding: 10px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 16px; }
+  p { font-size: 14px; }
 }
-
 
 
 </style>
@@ -1345,6 +1295,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
 
 
