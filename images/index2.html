@@ -645,7 +645,7 @@ a.button:hover {
 }
  /* لجميع الشاشات الصغيرة */
 @media (max-width: 768px) {
-  section { margin: 20px 10px; }
+  section { margin: 20px 10px; scroll-margin-top: 140px; /* للموبايل */ }
   .projects-grid, .certificates-grid { grid-template-columns: 1fr; gap: 15px; }
   .project-card img, .certificate-card img { height: 150px; }
   .timeline { padding-left: 20px; }
@@ -1341,6 +1341,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
 
 
