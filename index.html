@@ -59,12 +59,7 @@ body {
     opacity: 0.5;
     animation: floatUp linear infinite;
 }
- @media (max-width: 700px) {
-    .background-logo {
-        width: 25px;      /* يصغر الحجم */
-        left: 10px;        /* يحركه شمال شوية */
-    }
-}
+
 
 @keyframes floatUp {
     0% { transform: translateY(100vh); opacity: 0; }
@@ -81,15 +76,7 @@ img.logo {
     opacity: 0;
     animation: logoFlyDiagonal 6s forwards, logoColor 3s infinite alternate;
 }
-@media (max-width: 700px) {
-    img.logo {
-        width: 100px !important;   
-        top: 10px !important;     
-        right: 10px !important;   
-        bottom: auto !important;  /* إلغاء القديم */
-        left: auto !important;    /* إلغاء القديم */
-    }
-}
+
 
 @keyframes logoFlyDiagonal {
     0% { transform: translate(0, 0); opacity: 0; }
