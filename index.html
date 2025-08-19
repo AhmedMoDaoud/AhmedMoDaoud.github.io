@@ -61,7 +61,7 @@ body {
 }
  @media (max-width: 700px) {
     .background-logo {
-        width: 15px;      /* يصغر الحجم */
+        width: 25px;      /* يصغر الحجم */
         left: 10px;        /* يحركه شمال شوية */
     }
 }
@@ -81,7 +81,13 @@ img.logo {
     opacity: 0;
     animation: logoFlyDiagonal 6s forwards, logoColor 3s infinite alternate;
 }
-
+@media (max-width: 768px) {
+    img.logo {
+        width: 90px;   /* يصغر الحجم */
+        left: 10px;    /* يزاح شمال */
+        bottom: 15px;  /* يطلع لفوق شوية */
+    }
+}
 @keyframes logoFlyDiagonal {
     0% { transform: translate(0, 0); opacity: 0; }
     100% { transform: translate(calc(100vw - 190px), -80vh); opacity: 1; }
