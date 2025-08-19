@@ -83,11 +83,14 @@ img.logo {
 }
 @media (max-width: 700px) {
     img.logo {
-        width: 100px !important;   /* يصغر الحجم */
-        top: 10px !important;     /* أقرب لفوق */
-        right: 10px !important;   /* أقرب لليمين */
+        width: 100px !important;   
+        top: 10px !important;     
+        right: 10px !important;   
+        bottom: auto !important;  /* إلغاء القديم */
+        left: auto !important;    /* إلغاء القديم */
     }
 }
+
 @keyframes logoFlyDiagonal {
     0% { transform: translate(0, 0); opacity: 0; }
     100% { transform: translate(calc(100vw - 190px), -80vh); opacity: 1; }
