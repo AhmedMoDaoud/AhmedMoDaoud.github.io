@@ -120,6 +120,27 @@ img.logo-small {
     height: auto;
     z-index: 1001;
 }
+/* موبايل */
+@media (max-width: 768px) {
+    /* أزرار اللغة */
+    .lang-switch {
+        top: 10px;       /* يقلل المسافة من فوق */
+        left: 10px;      /* يقلل المسافة من الشمال */
+    }
+
+    .lang-switch button {
+        padding: 4px 8px;   /* يصغر الزر */
+        font-size: 10px;    /* يصغر الخط */
+        margin-right: 3px;  /* يقلل المسافات */
+    }
+
+    /* اللوجو */
+    img.logo-small {
+        top: 5px;
+        right: 10px;
+        width: 70px;    /* يصغر الحجم */
+    }
+}
 
 
 /* الأقسام Section */
@@ -1313,6 +1334,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
 
 
