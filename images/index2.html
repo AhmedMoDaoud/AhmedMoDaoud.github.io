@@ -158,7 +158,10 @@ section {
     opacity: 0;
     transform: translateY(40px);
     transition: all 0.8s ease-out;
+   scroll-margin-top: 100px; /* المسافة = ارتفاع الـ navbar *
 }
+
+
 
 /* تعديل عناوين السكشن */
 section h2 {
@@ -328,7 +331,7 @@ section#projects ul li a:hover {
 
 @media(max-width:600px){
     nav a { margin: 0 8px; font-size: 16px; }
-    section { margin: 100px 15px 30px 15px; padding: 20px; }
+    section { margin: 100px 15px 30px 15px; padding: 20px; scroll-margin-top: 140px; /* للموبايل */ }
     h2 { font-size: 1.5em; }
     .timeline { padding-left: 25px; }
     .timeline-item p { margin-left: 25px; }
@@ -1338,6 +1341,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
 
 
