@@ -142,14 +142,9 @@ a.button:hover {
     img.logo { width: 100px; bottom: 10px; animation: logoFlyMobile 2.5s forwards ease-out, logoColor 3s infinite alternate;    }
     a.button { padding: 10px 20px; font-size: 1.2em; }
 @keyframes logoFlyMobile {
-    0% {
-        transform: translate(0, 100px); /* يبدأ أسفل مكانه */
-        opacity: 0;
-    }
-    100% {
-        transform: translate(30px, -40px); /* يوصل للمكان النهائي بعيد عن الزاوية */
-        opacity: 1;
-    }
+   
+     0% { transform: translate(0, 0); opacity: 0; }
+    100% { transform: translate(calc(100vw - 190px), -80vh); opacity: 1; }
 }
 
 }
