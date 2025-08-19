@@ -83,12 +83,12 @@ img.logo {
 }
 @media (max-width: 700px) {
     img.logo {
-        width: 20px;   /* يصغر الحجم */
-        height: auto;
-        left: 3px;    /* يزاح شمال */
-        bottom: 15px;  /* يطلع لفوق شوية */
+        width: 20px !important;   /* يصغر الحجم */
+        left: 3px !important;     
+        bottom: 15px !important;  
     }
 }
+
 @keyframes logoFlyDiagonal {
     0% { transform: translate(0, 0); opacity: 0; }
     100% { transform: translate(calc(100vw - 190px), -80vh); opacity: 1; }
