@@ -135,12 +135,22 @@ a.button:hover {
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-@media(max-width: 700px){
+@media(max-width: 600px){
     h1 { font-size: 2em; }
     p { font-size: 1.2em; }
     img.profile { width: 200px; }
-    img.logo { width: 100px; top: 20px ;right: 20px;   }
-    a.button { padding: 10px 20px; font-size: 1em; }
+    img.logo { width: 100px; top: 10px ;right: 10px; bottom: auto;   left:auto;  animation: logoFlyMobile 2.5s forwards ease-out, logoColor 3s infinite alternate;    }
+    a.button { padding: 10px 20px; font-size: 1.2em; }
+  @keyframes logoFlyMobile {
+        0% {
+            transform: translate(0, 0);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(calc(100vw - 110px), calc(-100vh + 50px));
+            opacity: 1;
+        }
+    }
 }
  @media (max-width: 768px) {
     #projects {
