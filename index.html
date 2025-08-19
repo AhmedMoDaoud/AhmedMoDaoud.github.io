@@ -81,7 +81,13 @@ img.logo {
     opacity: 0;
     animation: logoFlyDiagonal 6s forwards, logoColor 3s infinite alternate;
 }
-
+@media (max-width: 700px) {
+    img.logo {
+        width: 40px !important;   /* يصغر الحجم */
+        top: 10px !important;     /* أقرب لفوق */
+        right: 10px !important;   /* أقرب لليمين */
+    }
+}
 @keyframes logoFlyDiagonal {
     0% { transform: translate(0, 0); opacity: 0; }
     100% { transform: translate(calc(100vw - 190px), -80vh); opacity: 1; }
