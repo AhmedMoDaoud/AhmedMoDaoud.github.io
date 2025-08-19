@@ -19,13 +19,20 @@ body {
     animation: gradientBG 15s ease infinite;
     color: #ffffff;
     scroll-behavior: smooth;
+}#about p {
+    font-size: 1.1rem;       /* حجم مناسب افتراضي */
+    line-height: 1.6;        /* تباعد مريح بين السطور */
+    text-align: justify;     /* يوزع الكلام على السطر بالكامل */
+    text-justify: inter-word;/* يوزع بالكلمات مش الحروف */
+    margin: 0;               /* يلغي المسافات بين الفقرات */
+    padding: 0;              /* يلغي أي padding إضافي */
 }
-#about p {
-    font-size: 1.4em;       /* حجم مناسب */
-    line-height: 1.5;       /* تباعد السطور */
-    text-align: none;    /* يوزع الكلام على السطر بالكامل */
-    text-justify: none; /* يخلي التوزيع بالكلمات مش الحروف */
-    margin-bottom: 0;    /* مسافة بين الفقرات */
+
+/* شاشات أكبر (مثل الكمبيوتر) */
+@media (min-width: 768px) {
+    #about p {
+        font-size: 1.3rem;   /* يكبر الخط شوية على الشاشات الكبيرة */
+    }
 }
 
 @keyframes gradientBG {
@@ -1298,6 +1305,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
 
 
