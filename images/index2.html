@@ -318,6 +318,14 @@ section .lang .timeline {
 .contact-icons a:hover {
     color: #3498db;
 }
+ @media (max-width: 700px) {
+    .contact-icons {
+     
+        align-items: center;      /* يتوسطوا في النص */
+        gap: 10px;                /* يقلل المسافة */
+        font-size: 1.1em;         /* يصغر الأيقونات */
+    }
+}
 
 /* روابط المشاريع */
 section#projects ul li a {
@@ -1341,6 +1349,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
 
 
