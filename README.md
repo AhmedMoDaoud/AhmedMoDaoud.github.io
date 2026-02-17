@@ -7,7 +7,7 @@
 
 ![](https://komarev.com/ghpvc/?username=AhmedMoDaoud&color=blue&style=for-the-badge)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=35&center=true&vCenter=true&width=1000&lines=Cloud+%26+DevOps+Engineer;AWS+Specialist;DevOps+Enthusiast;Always+Learning+New+Technologies)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=35&center=true&vCenter=true&width=1000&lines=Cloud+%26+DevOps+Engineer;IT+Specialist;DevOps+Enthusiast;Always+Learning+New+Technologies)
 
 ---
 
